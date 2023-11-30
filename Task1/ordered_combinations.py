@@ -71,10 +71,11 @@ for i in variables:
 
 sorter(combinations)
 
-for combo in combinations:
-    for j in combo:
-        print(j,end=' ')
-    print()
+
+#for combo in combinations:           for printing all the combinations
+#    for j in combo:
+#        print(j,end=' ')
+#    print()
 
 finder()
 while True:
