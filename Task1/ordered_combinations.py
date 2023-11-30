@@ -63,6 +63,7 @@ def finder():
 
 inp = input("enter list: ")
 variables=inp.split()
+variables.sort()
 combinations=[]
 
 for i in variables:
